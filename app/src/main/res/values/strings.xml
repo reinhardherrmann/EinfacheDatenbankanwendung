@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Einfache Datenbankanwendung</string>
+    <string name="label_ID">ID:</string>
+    <string name="labelFirstName">Vorname:</string>
+    <string name="label_LastName">Nachname:</string>
+    <string name="label_ButtonSave">Speichern</string>
+    <string name="label_ButtonSearch">ID suchen</string>
 </resources>
