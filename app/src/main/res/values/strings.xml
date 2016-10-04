@@ -1,4 +1,5 @@
 <resources>
+    <!-- activity_main -->
     <string name="app_name">Einfache Datenbankanwendung</string>
     <string name="label_ID">ID:</string>
     <string name="labelFirstName">Vorname:</string>
