@@ -19,11 +19,10 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:text="TextView"
+                android:text="@string/label_ID"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView"
-                tools:text="@string/label_ID" />
+                android:id="@+id/textView" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -38,11 +37,10 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:text="TextView"
+                android:text="@string/labelFirstName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView"
-                tools:text="@string/labelFirstName" />
+                android:id="@+id/textView" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -57,16 +55,15 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:text="TextView"
+                android:text="@string/label_LastName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView"
-                tools:text="@string/label_LastName" />
+                android:id="@+id/textView" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
+                android:inputType="text"
                 android:ems="10"
                 android:id="@+id/editText_LastName" />
         </TableRow>
@@ -76,18 +73,16 @@
             android:layout_height="match_parent" >
 
             <Button
-                android:text="Button"
+                android:text="@string/label_ButtonSave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button_SaveData"
-                tools:text="@string/label_ButtonSave" />
+                android:id="@+id/button_SaveData" />
 
             <Button
-                android:text="Button"
+                android:text="@string/label_ButtonSearch"
                 android:layout_height="wrap_content"
                 android:id="@+id/button_SearchForID"
-                android:layout_width="wrap_content"
-                tools:text="@string/label_ButtonSearch" />
+                android:layout_width="wrap_content" />
         </TableRow>
 
     </TableLayout>
